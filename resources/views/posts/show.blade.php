@@ -2,7 +2,7 @@
 @section('content')
 	<a class="btn btn-secondary" role="button" href="{!! url('/posts') !!}">Go Back</a>
 	<h3>{{ $post->title }}</h3>	
-	<img style="width: 100%;" src="storage/cover_images/{{ $post->cover_image }}">
+	<img style="width: 200px;" src="{{ asset("storage/cover_images/{$post->cover_image}")  }}">
 	<div>
 		{!! $post->body !!}
 	</div>

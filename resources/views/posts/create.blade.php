@@ -9,7 +9,7 @@
 		</div>
 		<div class="form-group">
 			<label>Body</label>
-			<textarea class="form-control" name="body" id="article-ckeditor" ></textarea>
+			<textarea class="form-control textarea" name="body"  ></textarea>
 		</div>
 		<div class="form-group">
 			<input type="file" name="cover_image">

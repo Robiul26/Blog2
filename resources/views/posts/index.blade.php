@@ -5,7 +5,7 @@
 		@foreach($posts as $post)
 			<div class="row">
 				<div col-sm-4>
-					<img style="width: 200px;" src="storage/cover_images/{{ $post->cover_image }}">
+					<img style="width: 200px;" src="{{ asset("storage/cover_images/{$post->cover_image}")  }}">
 				</div>
 				<div col-sm-8>
 					<div class="alert alert-success" role="alert">

@@ -10,7 +10,7 @@
 		</div>
 		<div class="form-group">
 			<label>Body</label>
-			<textarea class="form-control" name="body" id="article-ckeditor" placeholder="Body Text" rows="5">{{ $post->body }}</textarea>
+			<textarea class="form-control textarea" name="body" placeholder="Body Text" rows="5">{{ $post->body }}</textarea>
 		</div>
 		<div class="form-group">
 			<input class="btn btn-primary" type="submit" name="btnSubmit" value="Update">

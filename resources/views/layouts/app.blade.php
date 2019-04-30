@@ -30,8 +30,19 @@
         </div>
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+    <script src="{{url('/vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
+    <script src="{{url('/vendor/unisharp/laravel-ckeditor/adapters/jquery.js') }}"></script>
+    <script>
+        //$('textarea').ckeditor();
+         $('.textarea').ckeditor(); // if class is prefered.
+    </script>
 </body>
 </html>
